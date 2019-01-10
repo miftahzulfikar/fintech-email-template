@@ -1,0 +1,99 @@
+@import './color';
+@import './typography';
+
+.rc-button {
+    cursor: pointer;
+    background-color: $green-base;
+    margin: auto;
+    text-align: center;
+    padding: 10px 42px;
+    border-radius: 4px;
+    a {
+        color: $white-base;
+        font-weight: bold;
+    }
+    p {
+        margin: 0;
+    }
+    &__text {}
+    &__subtext {
+        font-size: $font-size-caption;
+        padding-top: 8px;
+    }
+}
+.rc-header {
+    color: $black-base;
+    border-bottom: solid 1px $black-disabled;
+    &__title {
+        font-size: $font-size-title;
+        font-weight: bold;
+        margin: 8px 0;
+        
+    }
+    &__subtitle {
+        font-size: $font-size-body;
+        font-style: italic;
+        font-weight: bold;
+        margin: 0;
+    }
+}
+.rc-intro {
+    color: $black-base;
+    text-align: center;
+    background-color: #f3fef3;
+    padding: 18px;
+    &__image {}
+    &__title {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 8px 0;
+    }
+    &__subtitle {
+        font-size: $font-size-subheader;
+        font-style: italic;
+        font-weight: bold;
+        margin: 0;
+    }
+}
+
+.rc-main {
+    line-height: 24px;
+    font-size: $font-size-body;
+    p {
+        margin: 12px 0;
+    }
+    hr {
+        border-top: solid 1px $black-disabled;
+        margin: 24px 0;
+    }
+}
+
+.rc-footer {
+    padding-top: 16px;
+    &__reminder {
+        margin: 0;
+        padding-top: 16px;
+        font-size: 12px;
+        color: rgba(0,0,0,.38);
+        border-top: 1px solid #e0e0e0;
+    }
+    &__contact {
+        background-color: #f4f4f4;
+        font-size: 9px;
+        color: #9b9b9b;
+    }
+}
+.footer-icon {
+    width: 40%;
+    text-align: center;
+    padding: 0 16px;
+    td {
+        padding: 4px 8px;
+    }
+    p {
+        margin: 0;
+        font-size: 8px;
+        font-weight: bold;
+        color: $black-light;
+    }
+}
